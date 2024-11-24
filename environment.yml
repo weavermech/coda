@@ -5,15 +5,23 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-
-  - matplotlib=3.9.2
-  - matplotlib-base=3.9.2
-  - matplotlib-inline=0.1.6
-  - pandas=2.2.2
-  - voila=0.5.7
+  - anytree=2.12.1=pyhd8ed1ab_0
+  - ipywidgets=8.1.2=py311haa95532_0
+  - json5=0.9.25=py311haa95532_0
+  - matplotlib=3.9.2=py311haa95532_0
+  - matplotlib-base=3.9.2=py311h472561b_0
+  - matplotlib-inline=0.1.6=py311haa95532_0
+  - pandas=2.2.2=py311hea22821_0
+  - pickleshare=0.7.5
+  - requests=2.32.3=py311haa95532_0
+  - voila=0.5.7=py311haa95532_0
+  - yaml=0.2.5=he774522_0
   - pip:
+      - anyascii==0.3.2
+      - ipython==8.12.3
       - jsonschema-specifications==2024.10.1
       - jupyterlab-pygments==0.3.0
       - mistune==3.0.2
+      - pipreqs==0.5.0
       - unicodecsv==0.14.1
-      - yarg==0.1.9
+prefix: F:\Users\weave\Anaconda3\envs\uni
